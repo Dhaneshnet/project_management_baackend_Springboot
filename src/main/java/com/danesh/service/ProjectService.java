@@ -16,11 +16,18 @@ public interface ProjectService {
 
     void deleteProject(Long projectId, Long userId)throws Exception;
 
+<<<<<<< HEAD
     Project updateProject(Project updateProject,Long id)throws Exception;
+=======
+    Project updateProject(Project updateProject)throws Exception;
+>>>>>>> project_management_baackend_Springboot/master
 
     void addedUserToProject(Long projectId, Long userId)throws Exception;
     void removeUserFromProject(Long projectId,Long userId)throws Exception;
     Chat getChatByProjectId(Long projectId)throws Exception;
+<<<<<<< HEAD
     List<Project>searchProjects(String keyword,User user)throws Exception;
+=======
+>>>>>>> project_management_baackend_Springboot/master
 
 }
