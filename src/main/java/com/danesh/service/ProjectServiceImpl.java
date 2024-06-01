@@ -87,6 +87,11 @@ public class ProjectServiceImpl implements ProjectService {
     }
 
     @Override
+    public Project updateProject(Project updateProject) throws Exception {
+        return null;
+    }
+
+    @Override
     public void addedUserToProject(Long projectId, Long userId) throws Exception {
         Project project=getProjectById(projectId);
         User user =userService.findUserById(userId);
